@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactDOM } from 'react';
+import ReactDOM from 'react-dom';
 const Reason = () => {
    return (
       <div>
@@ -13,6 +13,6 @@ const Reason = () => {
       </div>
    );
 };
-ReactDOM.render(Reason, document.getElementById('root'));
+ReactDOM.render(<Reason />, document.getElementById('root'));
 
 export default Reason;
